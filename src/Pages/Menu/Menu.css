@@ -1,0 +1,146 @@
+.our-menu-wrapper {
+  width: 1600px;
+  margin: 0 auto;
+}
+
+.our-menu-top {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.our-menu-top h3 {
+  color: orange;
+  font-size: 2.5rem;
+}
+
+.our-foods-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1.8rem;
+  padding-bottom: 3rem;
+}
+
+.our-foods-single-menu {
+  text-align: center;
+  width: 20%;
+  height: 300px;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #52c234;
+  background: -webkit-linear-gradient(to right, #061700, #52c234);
+  background: linear-gradient(to right, #061700, #52c234);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.our-foods-single-menu:hover {
+  transition: 0.5s ease;
+  transform: scale(1.03);
+}
+
+.our-foods-single-menu img {
+  width: 45%;
+  border-radius: 50%;
+  margin-top: 1rem;
+}
+
+.our-foods-menu-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-foods-menu-content h4 {
+  font-size: 16px;
+  color: aliceblue;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.our-foods-menu-content h4 span {
+  font-size: 16px;
+  color: gold;
+  padding-top: 5px;
+}
+
+.our-foods-menu-content p {
+  width: 100%;
+  text-align: center;
+  padding: 10px 20px;
+  font-size: smaller;
+  color: lightgray;
+}
+
+.add-card-button {
+  padding: 10px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  font-size: 22px;
+  padding-bottom: 30px;
+}
+
+.add-card-button span {
+  cursor: pointer;
+}
+
+/*?-----------------Mobile Responsive-----------------*/
+@media (max-width: 768px) {
+  .our-menu-wrapper {
+    width: 100%;
+  }
+
+  .our-foods-menu {
+    padding: 0px 30px;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .our-menu-top h3 {
+    font-size: 1.5rem;
+  }
+
+  .our-foods-single-menu {
+    width: 60%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .our-foods-single-menu img {
+    width: 50%;
+  }
+
+  .our-foods-menu-content {
+    width: 100%;
+    height: auto;
+  }
+
+  .our-foods-menu-content h4 {
+    font-size: 14px;
+    width: 30%;
+    text-align: center;
+  }
+
+  .our-foods-menu-content h4 span {
+    font-size: 20px;
+  }
+
+  .our-foods-menu-content p {
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+  }
+
+  .add-card-button {
+
+    padding-top: 20px;
+  }
+}

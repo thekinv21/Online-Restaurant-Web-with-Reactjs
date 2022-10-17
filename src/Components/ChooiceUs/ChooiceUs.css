@@ -1,0 +1,114 @@
+.chooice-us-container {
+  background: #000;
+  color: #fff;
+}
+
+.chooice-us-container .chooice-us-top {
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 50px;
+  color: beige;
+  font-size: 2.5rem;
+}
+
+.chooice-us-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0rem 2.5rem;
+}
+
+.chooice-us-row .chooice-us-food-image {
+  flex: 1 1 45rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chooice-us-row .chooice-us-food-image img {
+  width: 80%;
+}
+
+.chooice-us-row .chooice-us-content {
+  flex: 1 1 45rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.chooice-us-row .chooice-us-content h3 {
+  font-size: 3.5rem;
+  color: orange;
+  text-align: center;
+  width: 65%;
+  padding-bottom: 30px;
+}
+
+.chooice-us-row .chooice-us-content p {
+  font-size: medium;
+  width: 70%;
+  text-align: center;
+  padding: 1rem 2rem 2rem 2rem;
+}
+
+.chooice-us-row .chooice-us-content .chooice-us-icons-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.chooice-us-row .chooice-us-content .chooice-us-icons-container .chooice-us-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  background: #0f2027;
+  background: -webkit-linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+}
+
+.chooice-us-row .chooice-us-content .chooice-us-icons-container .chooice-us-icons .icons {
+  margin-right: 7px;
+  font-size: 18px;
+  color: greenyellow;
+}
+
+/*?-----------------Mobile Responsive-----------------*/
+@media (max-width: 768px) {
+  .chooice-us-container .chooice-us-top {
+    font-size: 1.5rem;
+  }
+
+  .chooice-us-row .chooice-us-food-image img {
+    width: 100%;
+  }
+
+  .chooice-us-row .chooice-us-content h3 {
+    font-size: 2rem;
+    width: 100%;
+    margin: 20px 0px;
+  }
+
+  .chooice-us-row .chooice-us-content p {
+    font-size: small;
+    padding: 0.5rem 2rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  .chooice-us-row .chooice-us-content .chooice-us-icons-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px;
+    margin-top: 30px;
+    width: 100%;
+    font-size: small;
+    padding-bottom: 30px;
+  }
+}
