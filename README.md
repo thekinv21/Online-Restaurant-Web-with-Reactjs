@@ -1,6 +1,6 @@
 1. Online-Restaurant-Web using ReactJs
 2. Web and Mobile Responsive
-3. Using React Libraries chakra-ui, material-ui, FontAwesomeİcons, vb
+3. Using React Libraries chakra-ui, material-ui, FontAwesomeİcons, Swipper
 
 ![sign-in](https://user-images.githubusercontent.com/92122363/196169256-970ff2f4-2e64-49ee-b7f5-c5e7253ba256.png)
 
